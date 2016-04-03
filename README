@@ -1,0 +1,9 @@
+These are hacky as hell, but they're the best thing I've found for actually getting stuff off my old Nomad Xtra.
+
+To use the scripts, you shouldn't need anything except the njb-tools package (that's what it is on Debian, and probably on Ubuntu, everyone else is on their own).
+
+Before you run either of the Perl scripts, you need to get a listing of files and tracks on your device. Run the "getlistings.sh" script.
+
+files.pl will download data files into nomad-files/. Beware that it will take a LONG time.
+
+tracks.pl will download your music into nomad-songs/. It's a lot faster than files.pl.
